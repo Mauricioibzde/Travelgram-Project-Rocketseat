@@ -1,0 +1,42 @@
+.photo-galery {
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 10px;
+   flex-wrap: wrap;
+    
+}
+.container {
+    padding-inline: 32px;
+    max-width: 1280px;
+    margin-inline: auto;
+
+}
+ 
+.photo-galery {
+    padding-block: 20px;
+}
+
+.photo-galery .item {
+
+width: 296px;
+height: 286px;
+background-color: black;
+transition: 0.5s;
+    
+}
+
+.photo-galery .item:hover {
+ transform: scale(1.03);
+}
+
+
+.photo-galery .item  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
