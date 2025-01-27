@@ -1,0 +1,119 @@
+
+@media screen and (max-width: 912px) { 
+    
+
+
+
+
+.profile {
+    flex-direction: column;
+    
+}
+
+.info-text  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.info-text p {
+    max-width: 90%;
+    text-align: justify;
+}
+
+.country ul {
+   display: flex;
+   gap: 20px;
+   
+}
+
+.profile {
+  gap: 10px;
+
+}
+.profile .country {
+    align-items: center;
+    justify-content: center;
+}
+
+.galery {
+    grid-template-columns: 1fr 1fr ;
+}
+
+footer {
+    text-align: center;
+}
+}
+
+
+@media screen and (max-width: 676px) { 
+    
+.container {
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+nav ul {
+       gap: 15px; 
+}
+
+
+    .profile {
+        flex-direction: column;
+        
+    }
+    
+    .info-text  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .info-text p {
+        max-width: 80%;
+        text-align: justify;
+    }
+    
+    .country ul {
+       display: inline-block;
+      
+
+    
+       
+    }
+
+    .country ul  li{
+        padding: 5px;
+     
+        
+     }
+    
+    .profile {
+      gap: 10px;
+    
+    }
+    .profile .country {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .galery {
+        grid-template-columns: 1fr ;
+    }
+    
+    footer {
+        text-align: center;
+    }
+
+ 
+    }
+    
+
+
